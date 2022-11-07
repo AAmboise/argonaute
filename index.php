@@ -4,7 +4,7 @@ require_once 'Models/User.php';
 
 
 if(isset($_POST["name"])){
-    $argo = new User(null, $_POST["name"]);
+    $argo = new User(null, htmlspecialchars($_POST["name"]));
     User::create($argo);
     header('location:./');
 }
