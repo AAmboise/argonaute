@@ -1,0 +1,5 @@
+CREATE TABLE `user` ( -- CREATION DE LA TABLE USER
+    `ID` int(10) NOT NULL AUTO_INCREMENT,
+    `nom` varchar(255) NOT NULL,
+    PRIMARY KEY(`ID`) 
+);
