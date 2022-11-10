@@ -14,7 +14,7 @@
   <form class="new-member-form" method="post">
     <label  for="name">Nom de l&apos;Argonaute</label>
     <input class="border border-black text-center" id="name" name="name" type="text" placeholder="Nouvel équipage" required/>
-    <button class="border border-black px-2 bg-orange-50" type="submit">Envoyer</button>
+    <button class="border border-black px-2 bg-orange-50" type="submit">Ajouter</button>
   </form>
   
   <!-- Member list -->
